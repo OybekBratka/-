@@ -1,0 +1,73 @@
+@import url(fonts.css);
+*{
+    padding: 0; margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+outline: none;
+border: none;
+background: none; 
+font-family: C7;
+}
+.container{
+    background: url(../img/top-view-medicine-keyboard-arrangement.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0 150px 0;
+}
+.container img{
+    max-width: 540;
+    max-height: 540px;
+}
+.container-glav{
+    display: flex;
+    font-size: 30px;
+    align-items: start;
+}
+.container-glav h1{
+    font-family: C7;
+    text-align: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.2);
+
+}
+.button img{box-sizing: border-box;
+    border-radius: 20px;
+    
+    background: url(call_3711123);
+}
+.container-good{
+    display: flex;
+    justify-content: center;
+    background: rgb(42, 44, 41);
+}
+.good{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 820px;
+    color: rgb(255, 255, 255);
+}
+.good a{
+    color: rgb(255, 255, 255);
+}
+.zashita{
+    background: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
